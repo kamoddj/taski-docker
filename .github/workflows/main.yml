@@ -140,7 +140,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        # test push
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script: |
           cd taski
